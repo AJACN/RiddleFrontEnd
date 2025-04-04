@@ -42,7 +42,3 @@ Este projeto utiliza a API [https://riddle-api-delta.vercel.app/](https://riddle
 ## Autor
 
 -   Antonio Jairo Alves Cordeiro Neto
-
-## Licença
-
-Este projeto é licenciado sob a [Licença MIT](LICENSE).
