@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riddle of the day</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Riddle of the day</h1>
+            <p id="riddleQuestion">Loading riddle...</p>
+            <input id="answerSubmit" type="text" placeholder="Submit your answer...">
+            <div class="buttons">
+                <button class="answer" onclick="answerSee()">See answer</button>
+                <button class="new-riddle" onclick="getRiddle()">New riddle</button>
+            </div>
+            <div id="answerResult" style="margin-top: 20px; text-align: center;"></div> </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
